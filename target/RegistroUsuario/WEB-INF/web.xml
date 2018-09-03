@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <display-name>Registro de Usuarios</display-name>
+  
+  <servlet>
+   	<description>
+   	</description>
+	<display-name>Leer</display-name>  
+  	<servlet-name>Leer</servlet-name>
+  	<servlet-class>pbas.ignacio.control.Leer</servlet-class>
+  	
+  </servlet>
+  
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Index</display-name>
+  	<servlet-name>Index</servlet-name>
+  	
+  
+  	<servlet-class>pbas.ignacio.control.Index</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Eliminar</display-name>
+  	<servlet-name>Eliminar</servlet-name>
+  	<servlet-class>pbas.ignacio.control.Eliminar</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Insertar</display-name>
+  	<servlet-name>Insertar</servlet-name>
+  	<servlet-class>pbas.ignacio.control.Insertar</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>Actualizar</display-name>
+  	<servlet-name>Actualizar</servlet-name>
+  	<servlet-class>pbas.ignacio.control.Actualizar</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Leer</servlet-name>
+  	<url-pattern>/Leer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Index</servlet-name>
+  	<url-pattern>/Index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Eliminar</servlet-name>
+  	<url-pattern>/Eliminar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Insertar</servlet-name>
+  	<url-pattern>/Insertar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Actualizar</servlet-name>
+  	<url-pattern>/Actualizar</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
+

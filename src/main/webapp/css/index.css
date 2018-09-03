@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+#h1{
+	text-align: center;
+	color: #5D6D7E;
+}
+
+.jumbotron,container{
+	text-align: center;
+	color: #34495E  ;
+}
