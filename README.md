@@ -1,3 +1,5 @@
-# registrousuarios
 
-Es una aplicacíon web con tecnología de JSP y Servlets.
+Aplicación Web para Registro de Usuarios
+
+Usando  JSP´s y Servlets.
+
