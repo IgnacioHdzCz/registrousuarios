@@ -1,5 +1,5 @@
 
-Aplicación Web para Registro de Usuarios
+                                       Aplicación Web para Registro de Usuarios
 
-Usando  JSP´s y Servlets.
+                                           Usando  JSP´s y Servlets.
 
