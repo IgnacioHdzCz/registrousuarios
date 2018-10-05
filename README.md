@@ -1,5 +1,7 @@
 
-                                       Aplicación Web para Registro de Usuarios
+# Aplicación Web para Registro de Usuarios
 
-                                           Usando  JSP´s y Servlets.
-
+                               JSP´s + SERVLET´s + TOMCAT + DB2.
+                               
+                               
+Pagina de Bienvenida.
